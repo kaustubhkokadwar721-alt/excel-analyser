@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- .NET ----
+bin/
+obj/
+*.user
+*.suo
+.vs/
+artifacts/
+
+# ---- Build outputs / generated artifacts (regenerable) ----
+xlam/PerfDiag.xlam
+xlam/PerfDiag_xlam_verify.xlsx
+PerfTest_Sample.xlsx
+PerfTest_Small.xlsx
+PerfTest_full.xlsx
+PerfTest_static.xlsx
+*.perfreport.xlsx
+*.perffingerprint.json
+
+# ---- OS / editor ----
+Thumbs.db
+.DS_Store
+*.swp
+~$*

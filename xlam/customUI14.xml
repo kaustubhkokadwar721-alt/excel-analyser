@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_OnLoad">
+  <ribbon>
+    <tabs>
+      <tab id="tabPerfDiag" label="Perf Diagnostic" insertBeforeMso="TabReview">
+        <group id="grpPerfDiag" label="Diagnose">
+          <button id="btnRunDiag" label="Diagnose Workbook" size="large"
+                  imageMso="CalculateNow" onAction="Ribbon_RunDiag"
+                  screentip="Diagnose this workbook's performance"
+                  supertip="Times each formula pattern, ranks the cost, and writes a report (Summary, Formula Cost, Structure, Actions) with fixes."/>
+          <button id="btnAbout" label="About" size="large"
+                  imageMso="Help" onAction="Ribbon_About"
+                  screentip="About PerfDiag"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
