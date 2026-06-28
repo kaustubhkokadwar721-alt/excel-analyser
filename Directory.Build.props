@@ -1,0 +1,14 @@
+<Project>
+  <!-- Solution-wide build settings for all ExcelPerfDiag projects. -->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <Deterministic>true</Deterministic>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <Authors>Kaustubh Kokadwar</Authors>
+    <Product>Excel Performance Diagnostic</Product>
+  </PropertyGroup>
+</Project>

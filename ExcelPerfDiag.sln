@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{48BB174F-77A5-4D07-B51A-DA367D0D0BCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelPerfDiag.Core", "src\ExcelPerfDiag.Core\ExcelPerfDiag.Core.csproj", "{99FCBF77-F54C-46E7-A958-3D76104566C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelPerfDiag.Cli", "src\ExcelPerfDiag.Cli\ExcelPerfDiag.Cli.csproj", "{247496A2-D4FA-46E0-A882-761F3765ED73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0B5A6865-CC09-4A5D-B6A6-50A2AFE18FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelPerfDiag.Core.Tests", "tests\ExcelPerfDiag.Core.Tests\ExcelPerfDiag.Core.Tests.csproj", "{128FCB1B-2584-448B-BEC5-311D061885CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelPerfDiag.Fixtures", "tests\ExcelPerfDiag.Fixtures\ExcelPerfDiag.Fixtures.csproj", "{FF6B7093-D5CC-4B71-994A-2831DA97B21F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99FCBF77-F54C-46E7-A958-3D76104566C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FCBF77-F54C-46E7-A958-3D76104566C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FCBF77-F54C-46E7-A958-3D76104566C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FCBF77-F54C-46E7-A958-3D76104566C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247496A2-D4FA-46E0-A882-761F3765ED73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247496A2-D4FA-46E0-A882-761F3765ED73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247496A2-D4FA-46E0-A882-761F3765ED73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247496A2-D4FA-46E0-A882-761F3765ED73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128FCB1B-2584-448B-BEC5-311D061885CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128FCB1B-2584-448B-BEC5-311D061885CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128FCB1B-2584-448B-BEC5-311D061885CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128FCB1B-2584-448B-BEC5-311D061885CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6B7093-D5CC-4B71-994A-2831DA97B21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6B7093-D5CC-4B71-994A-2831DA97B21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6B7093-D5CC-4B71-994A-2831DA97B21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6B7093-D5CC-4B71-994A-2831DA97B21F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99FCBF77-F54C-46E7-A958-3D76104566C5} = {48BB174F-77A5-4D07-B51A-DA367D0D0BCB}
+		{247496A2-D4FA-46E0-A882-761F3765ED73} = {48BB174F-77A5-4D07-B51A-DA367D0D0BCB}
+		{128FCB1B-2584-448B-BEC5-311D061885CE} = {0B5A6865-CC09-4A5D-B6A6-50A2AFE18FCF}
+		{FF6B7093-D5CC-4B71-994A-2831DA97B21F} = {0B5A6865-CC09-4A5D-B6A6-50A2AFE18FCF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+
+[*.cs]
+indent_size = 4
+# Namespaces
+csharp_style_namespace_declarations = file_scoped:warning
+# var
+csharp_style_var_when_type_is_apparent = true:suggestion
+# Expression-bodied members
+csharp_style_expression_bodied_methods = when_on_single_line:suggestion
+# Nullable / quality
+dotnet_diagnostic.CA1062.severity = none
+dotnet_diagnostic.CA1031.severity = none
+dotnet_style_qualification_for_field = false:warning
+dotnet_sort_system_directives_first = true
+
+[*.{csproj,props,targets,xml}]
+indent_size = 2
+
+[*.{json,yml,yaml}]
+indent_size = 2
+
+[*.py]
+indent_size = 4
+
+# Test projects: underscore-separated method names are idiomatic (Method_State_Expectation).
+[tests/**.cs]
+dotnet_diagnostic.CA1707.severity = none
